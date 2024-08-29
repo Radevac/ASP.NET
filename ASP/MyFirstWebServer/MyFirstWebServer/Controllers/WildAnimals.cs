@@ -13,5 +13,4 @@ public class WildAnimals : Controller
     {
         return "i'm red";
     }
-    
 }
