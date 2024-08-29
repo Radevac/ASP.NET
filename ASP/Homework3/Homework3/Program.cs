@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using MyFirstWebServer.Data;
+using Homework3.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,21 +36,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-//app.UseEndpoints(endpoints =>
-//{
-//    endpoints.MapGet("/test", async context =>
-//    {
-//        await context.Response.WriteAsync("Hello World!");
-//    });
-//
-//    endpoints.MapControllerRoute(
-//        name: "default",
-//        pattern: "{controller=Home}/{action=Index}/{id?}");
-//});
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.MapRazorPages();
 
 app.Run();

@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>aspnet-MyFirstWebServer-A97DD511-C372-42BC-B77A-2725187FBA2C</UserSecretsId>
+        <UserSecretsId>aspnet-Homework3-5BD1ABF0-3946-45BB-A8E1-7AE3E8F71D0D</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,11 +17,6 @@
         <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.3"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.3"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3"/>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="wwwroot\Music\Q\Queen\BochemRapsody\" />
-      <Folder Include="wwwroot\Music\Q\Queen\Magic\" />
     </ItemGroup>
 
 </Project>
