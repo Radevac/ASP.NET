@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+
+<h1> Build in C# @ViewData["h1"] @ViewBag.h1</h1>
+
+<h2> Build by Server Side Sendering (SSR): </h2>
+<ul>
+    <li>ViewData => @ViewData["h1"]</li>
+    <li>ViewBag => @ViewBag.h1</li>
+</ul>
+
+<h2>build by JS</h2>
+<ul id ="ul"></ul>
+
+<script>
+    const  ul = document.getElementById("ul")
+    let li1 = document.createElement("li")
+    li1.innerText = "hello form js"
+    ul.appendChild(li1)
+    
+</script>
+</body>
+</html>

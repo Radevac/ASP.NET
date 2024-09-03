@@ -1,0 +1,210 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>TMDBV</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .container {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .form-control, .btn-primary, .form-control:focus, .btn-primary:focus {
+            background-color: #2c2c2c;
+            color: #ffffff;
+            border-color: #4a4a4a;
+        }
+
+        .form-control::placeholder {
+            color: #b5b5b5;
+        }
+
+        .btn-primary {
+            border-color: #4a4a4a;
+        }
+
+        .btn-primary:hover {
+            background-color: #3a3a3a;
+            border-color: #6a6a6a;
+        }
+
+        .movie {
+            background-color: #2c2c2c;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        img {
+            border-radius: 10px;
+            max-width: 50%;
+            height: 600px;
+            width: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="text-center my-4">Ласкаво просимо. Мільйони фільмів, серіалів. Досліджуйте зараз.</h1>
+
+    <div class="input-group mb-3">
+        <input type="text" id="searchInput" class="form-control" placeholder="Введіть назву фільму..." oninput="searchByTitleLive()">
+    </div>
+
+    <div class="input-group mb-3">
+        <select id="genreSelect" class="form-control">
+            <option value="28">Екшн</option>
+            <option value="12">Пригоди</option>
+            <option value="16">Анімація</option>
+            <option value="35">Комедія</option>
+            <option value="80">Кримінал</option>
+            <option value="99">Документальний</option>
+            <option value="18">Драма</option>
+            <option value="10751">Сімейний</option>
+            <option value="14">Фентезі</option>
+            <option value="36">Історичний</option>
+            <option value="27">Жахи</option>
+            <option value="10402">Музика</option>
+            <option value="9648">Містика</option>
+            <option value="10749">Романтика</option>
+            <option value="878">Фантастика</option>
+            <option value="10770">Телевізійний фільм</option>
+            <option value="53">Трилер</option>
+            <option value="10752">Військовий</option>
+            <option value="37">Вестерн</option>
+        </select>
+    </div>
+
+    <div class="input-group mb-3">
+        <select id="topSelect" class="form-control">
+            <option value="3">Топ-3</option>
+            <option value="10">Топ-10</option>
+            <option value="50">Топ-50</option>
+            <option value="100">Топ-100</option>
+        </select>
+        <div class="input-group-append">
+            <button class="btn btn-primary" onclick="searchByGenre()">Пошук за жанром</button>
+        </div>
+    </div>
+
+    <div id="results" class="my-4">
+    </div>
+</div>
+
+<script>
+    const apiKey = 'b99a1cfd89d2237dcf515f89e4ffe773';
+    let typingTimer;
+    const typingDelay = 300; // затримка у мілісекундах перед викликом API
+
+    // Пошук за назвою з живим оновленням
+    function searchByTitleLive() {
+        clearTimeout(typingTimer);
+        typingTimer = setTimeout(() => {
+            const query = document.getElementById('searchInput').value;
+            if (query) {
+                searchByTitle(query);
+            } else {
+                document.getElementById('results').innerHTML = '';
+            }
+        }, typingDelay);
+    }
+
+    // Пошук за назвою
+    async function searchByTitle(query) {
+        const url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${query}&language=uk-UA`;
+
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+            displayResults(data.results);
+        } catch (error) {
+            console.error('Помилка:', error);
+        }
+    }
+
+    // Пошук за жанром
+    async function searchByGenre() {
+        const genreId = document.getElementById('genreSelect').value;
+        const topCount = document.getElementById('topSelect').value;
+        const url = `https://api.themoviedb.org/3/discover/movie?api_key=${apiKey}&with_genres=${genreId}&sort_by=popularity.desc&language=uk-UA&vote_count.gte=10&include_adult=false&include_video=true&page=1`;
+
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+            const results = data.results.slice(0, topCount);
+            displayResults(results);
+        } catch (error) {
+            console.error('Помилка:', error);
+        }
+    }
+
+    // Відображення результатів
+    function displayResults(movies) {
+        const resultsDiv = document.getElementById('results');
+        resultsDiv.innerHTML = '';
+
+        movies.forEach(movie => {
+            const movieDiv = document.createElement('div');
+            movieDiv.className = 'movie mb-3';
+
+            const title = document.createElement('h3');
+            title.textContent = movie.title;
+
+            const rating = document.createElement('p');
+            rating.textContent = `Рейтинг: ${movie.vote_average}`;
+
+            const overview = document.createElement('p');
+            overview.textContent = `Опис: ${movie.overview}`;
+
+            const poster = document.createElement('img');
+            poster.src = `https://image.tmdb.org/t/p/w500${movie.poster_path}`;
+            poster.alt = movie.title;
+            poster.style.width = '100%';
+
+            const trailerButton = document.createElement('button');
+            trailerButton.className = 'btn btn-primary mt-3';
+            trailerButton.textContent = 'Дивитись трейлер';
+            trailerButton.onclick = () => watchTrailer(movie.id);
+
+            movieDiv.appendChild(title);
+            movieDiv.appendChild(rating);
+            movieDiv.appendChild(overview);
+            movieDiv.appendChild(poster);
+            movieDiv.appendChild(trailerButton);
+
+            resultsDiv.appendChild(movieDiv);
+        });
+    }
+
+    // трейлер
+    async function watchTrailer(movieId) {
+        const url = `https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=${apiKey}&language=uk-UA`;
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+            const trailer = data.results.find(video => video.type === 'Trailer' && video.site === 'YouTube');
+            if (trailer) {
+                const trailerUrl = `https://www.youtube.com/watch?v=${trailer.key}`;
+                window.open(trailerUrl, '_blank');
+            } else {
+                alert('Трейлер не знайдено');
+            }
+        } catch (error) {
+            console.error('Помилка:', error);
+        }
+    }
+</script>
+</body>
+</html>

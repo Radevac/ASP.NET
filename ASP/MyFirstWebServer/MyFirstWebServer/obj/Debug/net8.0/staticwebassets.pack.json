@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\VADICK\\RiderProjects\\ASP\\MyFirstWebServer\\MyFirstWebServer\\wwwroot\\js\\Index.html",
+      "PackagePath": "staticwebassets\\js\\Index.html"
+    },
+    {
       "Id": "C:\\Users\\VADICK\\RiderProjects\\ASP\\MyFirstWebServer\\MyFirstWebServer\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

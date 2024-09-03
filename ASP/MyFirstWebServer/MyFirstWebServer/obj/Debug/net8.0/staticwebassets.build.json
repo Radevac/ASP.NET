@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mkURruCOZPicBKt/w/JpZHGXMmcCOzshgXdFlYeRmIE=",
+  "Hash": "H7dDpXS1KHv+ZfyNfyD/QH7Oi4YMGqbtpAUYazsf0OY=",
   "Source": "MyFirstWebServer",
   "BasePath": "_content/MyFirstWebServer",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\VADICK\\RiderProjects\\ASP\\MyFirstWebServer\\MyFirstWebServer\\wwwroot\\js\\Index.html",
+      "SourceId": "MyFirstWebServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\VADICK\\RiderProjects\\ASP\\MyFirstWebServer\\MyFirstWebServer\\wwwroot\\",
+      "BasePath": "_content/MyFirstWebServer",
+      "RelativePath": "js/Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Index.html"
     },
     {
       "Identity": "C:\\Users\\VADICK\\RiderProjects\\ASP\\MyFirstWebServer\\MyFirstWebServer\\wwwroot\\js\\site.js",
