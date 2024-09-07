@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<partial name="Active/Head"/>
+<body>
+
+<partial name="Active/Header"/>
+
+<main class="main">
+    @RenderBody()
+</main>
+<partial name="Active/Footer"/>
+<partial name="Active/FooterInclude"/>
+
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

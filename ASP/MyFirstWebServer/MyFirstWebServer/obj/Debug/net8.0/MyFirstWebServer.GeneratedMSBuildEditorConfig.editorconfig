@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXdvcms0XEhvbTQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Homework5/Hom5.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXdvcms1XEhvbTUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,8 +42,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Active/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjdGl2ZVxGb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Active/FooterInclude.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjdGl2ZVxGb290ZXJJbmNsdWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Active/Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjdGl2ZVxIZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Active/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjdGl2ZVxIZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Active/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFjdGl2ZVxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Mentor/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1lbnRvclxGb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Mentor/FooterInclude.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1lbnRvclxGb290ZXJJbmNsdWRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Mentor/Head.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1lbnRvclxIZWFkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Mentor/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1lbnRvclxIZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Mentor/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1lbnRvclxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/_LoginPartial.cshtml]

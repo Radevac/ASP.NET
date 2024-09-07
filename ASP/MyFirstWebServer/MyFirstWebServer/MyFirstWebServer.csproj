@@ -22,6 +22,7 @@
     <ItemGroup>
       <Folder Include="wwwroot\Music\Q\Queen\BochemRapsody\" />
       <Folder Include="wwwroot\Music\Q\Queen\Magic\" />
+      <Folder Include="wwwroot\template\" />
     </ItemGroup>
 
 </Project>
