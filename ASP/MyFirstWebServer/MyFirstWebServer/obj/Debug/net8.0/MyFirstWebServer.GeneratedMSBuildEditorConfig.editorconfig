@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyFirstWebServer
 build_property.RootNamespace = MyFirstWebServer
@@ -26,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVpbGRcRmlyc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Contact/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Homework4/Hom4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZXdvcms0XEhvbTQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +52,30 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/MyContacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlDb250YWN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/MyContacts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlDb250YWN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/MyContacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlDb250YWN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/MyContacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlDb250YWN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/MyContacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlDb250YWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Page/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/Active/Footer.cshtml]
@@ -92,6 +128,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Test/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Test/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Test/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Test/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Test/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/_ViewImports.cshtml]

@@ -1,0 +1,22 @@
+﻿@model MyFirstWebServer.Models.Entities.MyContact
+
+<h2>Видалити контакт</h2>
+
+<div>
+    <h4>Ви дійсно хочете видалити цей контакт?</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Ім'я</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Номер телефону</dt>
+        <dd class="col-sm-10">@Model.PhoneNumber</dd>
+
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Видалити</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Скасувати</a>
+    </form>
+</div>
