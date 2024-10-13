@@ -1,0 +1,18 @@
+﻿@model MyFirstWebServer.Models.Entities.VendorModel
+
+<h1>Edit Vendor</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="ContactInfo">Contact Info</label>
+        <input type="text" asp-for="ContactInfo" class="form-control" />
+        <span asp-validation-for="ContactInfo" class="text-danger"></span>
+    </div>
+    <input type="submit" value="Save" class="btn btn-primary" />
+</form>

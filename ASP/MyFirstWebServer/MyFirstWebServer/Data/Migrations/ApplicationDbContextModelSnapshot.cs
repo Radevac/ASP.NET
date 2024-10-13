@@ -213,6 +213,25 @@ namespace MyFirstWebServer.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.CategoryModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categories");
+                });
+
             modelBuilder.Entity("MyFirstWebServer.Models.Entities.MyContact", b =>
                 {
                     b.Property<int>("Id")
@@ -232,6 +251,28 @@ namespace MyFirstWebServer.Data.Migrations
                     b.ToTable("Contacts");
                 });
 
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.PersonModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("Age")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Gender")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Persons");
+                });
+
             modelBuilder.Entity("MyFirstWebServer.Models.Entities.SubscribeModel", b =>
                 {
                     b.Property<int>("Id")
@@ -245,6 +286,40 @@ namespace MyFirstWebServer.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Subscribers");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.TagModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.VendorModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ContactInfo")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Vendors");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

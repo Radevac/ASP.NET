@@ -1,0 +1,26 @@
+﻿@model IEnumerable<MyFirstWebServer.Models.Entities.TagModel>
+
+<h1>Tags</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var tag in Model)
+    {
+        <tr>
+            <td>@tag.Name</td>
+            <td>
+                <a href="/Tag/Edit/@tag.Id">Edit</a> |
+                <a href="/Tag/Delete/@tag.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a href="/Tag/Create">Create New Tag</a>

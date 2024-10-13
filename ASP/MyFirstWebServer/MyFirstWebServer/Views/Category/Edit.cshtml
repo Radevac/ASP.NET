@@ -1,0 +1,18 @@
+﻿@model MyFirstWebServer.Models.Entities.CategoryModel
+
+<h1>Edit Category</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label for="Name">Name</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <input type="text" asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <input type="submit" value="Save" class="btn btn-primary" />
+</form>

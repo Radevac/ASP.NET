@@ -1,0 +1,30 @@
+﻿
+<h1> Create Person </h1>
+
+<div >
+    <div>
+        <h3 class="widget-heading">Create Person</h3>
+        <form 
+            asp-controller="Person" 
+            asp-action="Create">
+            <div class="mb-2">
+                <input type="text"
+                       class="form-control" name="name" placeholder="Enter your name">
+                
+            </div>
+            <div class="mb-2">
+                <input type="number" min="18" max="1000"
+                       class="form-control" name="age" placeholder="Enter your age">
+                            
+            </div>
+            <div class="mb-2">
+                <input type="text" min="18" max="1000"
+                       class="form-control" name="gender" placeholder="Enter your gender">
+            </div>
+            
+            <div class="mb-2">
+                <input type="submit" min="18" max="1000" value="Save">
+                </div>
+        </form>
+    </div>
+</div>

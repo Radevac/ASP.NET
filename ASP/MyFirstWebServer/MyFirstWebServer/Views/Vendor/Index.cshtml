@@ -1,0 +1,28 @@
+﻿@model IEnumerable<MyFirstWebServer.Models.Entities.VendorModel>
+
+<h1>Vendors</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Contact Info</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var vendor in Model)
+    {
+        <tr>
+            <td>@vendor.Name</td>
+            <td>@vendor.ContactInfo</td>
+            <td>
+                <a href="/Vendor/Edit/@vendor.Id" class="btn btn-primary">Edit</a> |
+                <a href="/Vendor/Delete/@vendor.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<a href="/Vendor/Create" class="btn btn-success">Create New Vendor</a>
