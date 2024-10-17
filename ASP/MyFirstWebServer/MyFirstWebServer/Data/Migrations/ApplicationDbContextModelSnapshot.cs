@@ -17,6 +17,21 @@ namespace MyFirstWebServer.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.8");
 
+            modelBuilder.Entity("CityModelCityTypeModel", b =>
+                {
+                    b.Property<int>("CitiesId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CityTypesId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("CitiesId", "CityTypesId");
+
+                    b.HasIndex("CityTypesId");
+
+                    b.ToTable("CityModelCityTypeModel");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -213,6 +228,25 @@ namespace MyFirstWebServer.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.AreaModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("AreaModel");
+                });
+
             modelBuilder.Entity("MyFirstWebServer.Models.Entities.CategoryModel", b =>
                 {
                     b.Property<int>("Id")
@@ -230,6 +264,73 @@ namespace MyFirstWebServer.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.CityModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("AreaId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AreaId");
+
+                    b.ToTable("CityModel");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.CityTypeModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("TypeName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CityTypeModel");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.HouseModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Number")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("StreetId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("StreetId");
+
+                    b.ToTable("HouseModel");
                 });
 
             modelBuilder.Entity("MyFirstWebServer.Models.Entities.MyContact", b =>
@@ -271,6 +372,30 @@ namespace MyFirstWebServer.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Persons");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.StreetModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CityId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Slug")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CityId");
+
+                    b.ToTable("StreetModel");
                 });
 
             modelBuilder.Entity("MyFirstWebServer.Models.Entities.SubscribeModel", b =>
@@ -322,6 +447,21 @@ namespace MyFirstWebServer.Data.Migrations
                     b.ToTable("Vendors");
                 });
 
+            modelBuilder.Entity("CityModelCityTypeModel", b =>
+                {
+                    b.HasOne("MyFirstWebServer.Models.Entities.CityModel", null)
+                        .WithMany()
+                        .HasForeignKey("CitiesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("MyFirstWebServer.Models.Entities.CityTypeModel", null)
+                        .WithMany()
+                        .HasForeignKey("CityTypesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -371,6 +511,54 @@ namespace MyFirstWebServer.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.CityModel", b =>
+                {
+                    b.HasOne("MyFirstWebServer.Models.Entities.AreaModel", "Area")
+                        .WithMany("Cities")
+                        .HasForeignKey("AreaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Area");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.HouseModel", b =>
+                {
+                    b.HasOne("MyFirstWebServer.Models.Entities.StreetModel", "Street")
+                        .WithMany("Houses")
+                        .HasForeignKey("StreetId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Street");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.StreetModel", b =>
+                {
+                    b.HasOne("MyFirstWebServer.Models.Entities.CityModel", "City")
+                        .WithMany("Streets")
+                        .HasForeignKey("CityId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("City");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.AreaModel", b =>
+                {
+                    b.Navigation("Cities");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.CityModel", b =>
+                {
+                    b.Navigation("Streets");
+                });
+
+            modelBuilder.Entity("MyFirstWebServer.Models.Entities.StreetModel", b =>
+                {
+                    b.Navigation("Houses");
                 });
 #pragma warning restore 612, 618
         }

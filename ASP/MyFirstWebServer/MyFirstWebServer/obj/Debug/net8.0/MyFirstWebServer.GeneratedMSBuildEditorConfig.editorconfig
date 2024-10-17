@@ -30,6 +30,26 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Area/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Area/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Area/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Area/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Area/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJlYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Build/First.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVpbGRcRmlyc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +70,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/CityType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVR5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/CityType/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVR5cGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/CityType/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVR5cGVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/CityType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVR5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/CityType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/City/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/City/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/City/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/City/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/City/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Contact/Form.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +128,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/House/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/House/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/House/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/House/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/House/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/MyContacts/Create.cshtml]
@@ -156,6 +236,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Street/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Street/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Street/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Street/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Street/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/VADICK/RiderProjects/ASP/MyFirstWebServer/MyFirstWebServer/Views/Subscribe/SaveEmail.cshtml]
