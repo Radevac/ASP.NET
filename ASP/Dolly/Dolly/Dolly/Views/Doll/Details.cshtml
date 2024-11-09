@@ -1,0 +1,17 @@
+@model Dolly.Models.Dolly.DollModel
+
+<h1>Деталі ляльки</h1>
+<p>Назва: @Model.Name</p>
+<img src="@Model.ImageUrl" alt="Doll Image" class="doll-image" />
+
+<h2>Одяг</h2>
+<ul>
+    @foreach (var outfit in Model.Outfits)
+    {
+        <li>
+            <a asp-controller="Outfit" asp-action="Details" asp-route-id="@outfit.Id">@outfit.Name</a> - Стиль: @outfit.Style
+        </li>
+    }
+</ul>
+
+<a asp-action="Index">Назад до списку</a>

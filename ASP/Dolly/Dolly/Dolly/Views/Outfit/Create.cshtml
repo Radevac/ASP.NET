@@ -1,0 +1,21 @@
+@model Dolly.Models.Dolly.OutfitModel
+
+<h1>Додати новий одяг</h1>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="Name">Назва</label>
+        <input type="text" class="form-control" id="Name" name="Name" required />
+    </div>
+    <div class="form-group">
+        <label for="ImageUrl">Зображення</label>
+        <input type="file" class="form-control" id="ImageUrl" name="ImageUrl" required />
+    </div>
+    <div class="form-group">
+        <label for="Style">Стиль</label>
+        <input type="text" class="form-control" id="Style" name="Style" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Зберегти</button>
+</form>
+
+<a asp-action="Index">Назад до списку</a>

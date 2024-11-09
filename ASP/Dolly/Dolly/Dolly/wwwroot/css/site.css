@@ -1,0 +1,41 @@
+/* Загальні стилі для сторінки */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Стиль для зображення ляльки */
+.doll-image {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Стиль для зображення одягу */
+.outfit-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}

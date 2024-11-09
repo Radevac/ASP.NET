@@ -1,0 +1,8 @@
+@model Dolly.Models.Dolly.OutfitModel
+
+<h1>Деталі одягу</h1>
+<p>Назва: @Model.Name</p>
+<p>Стиль: @Model.Style</p>
+<img src="@Model.ImageUrl" alt="Outfit Image" class="outfit-image" />
+
+<a asp-action="Index">Назад до списку</a>

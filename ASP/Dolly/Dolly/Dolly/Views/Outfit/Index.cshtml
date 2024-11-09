@@ -1,0 +1,30 @@
+@model IEnumerable<Dolly.Models.Dolly.OutfitModel>
+
+<h1>Одяг</h1>
+<p>
+    <a asp-action="Create">Додати новий одяг</a>
+</p>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Назва</th>
+        <th>Стиль</th>
+        <th>Дії</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var outfit in Model)
+    {
+        <tr>
+            <td>@outfit.Name</td>
+            <td>@outfit.Style</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@outfit.Id">Переглянути</a> |
+                <a asp-action="Edit" asp-route-id="@outfit.Id">Редагувати</a> |
+                <a asp-action="Delete" asp-route-id="@outfit.Id">Видалити</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
