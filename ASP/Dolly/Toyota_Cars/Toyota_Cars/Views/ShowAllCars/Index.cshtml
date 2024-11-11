@@ -1,0 +1,35 @@
+@model IEnumerable<WebApplicationGeo.Models.Cars.Toyota.ToyotaModel>
+
+@{
+    ViewData["Title"] = "All Cars";
+}
+
+<h1> All cars in DB </h1>
+
+<ul>
+    @* _context.ToyotaModels  *@
+    @foreach (var tModel in Model)
+    {
+        <li>
+            @tModel.Name
+            <ul>
+                @* Include tModels.Configurations *@
+                @foreach (var tConfig in tModel.Configurations)
+                {
+                    <li>
+                        @tConfig.Name
+                        <ul>
+                            @* ThenInclude tConfig.Colors *@
+                            @foreach (var tColor in tConfig.Colors)
+                            {
+                                <li>
+                                    @tColor.Color.Name
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+            </ul>
+        </li>
+    }
+</ul>

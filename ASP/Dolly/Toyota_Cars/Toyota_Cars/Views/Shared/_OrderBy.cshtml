@@ -1,0 +1,26 @@
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebApplicationGeo.Models.ViewModels.PaginateViewModel
+
+<div class="form-inline">
+    <div class="form-group">
+        <label for="sortColumn">Сортировать по:</label>
+        <select id="sortColumn" class="form-control ml-2" onchange="applySorting()" asp-items="Model.SortColumnSelectedList">
+        </select>
+    </div>
+
+    <div class="form-group ml-3">
+        <label for="sortDirection">Направление:</label>
+        <select id="sortDirection" class="form-control ml-2" onchange="applySorting()" asp-items="Model.SortDirectionSelectedList">
+        </select>
+    </div>
+</div>
+
+<script>
+    function applySorting() {
+        const sortColumn = document.getElementById('sortColumn').value;
+        const sortDirection = document.getElementById('sortDirection').value;
+        const pageNumber = @Model.PageNumber;
+        const pageSize = @Model.PageSize;
+        window.location.href = `?pageNumber=${pageNumber}&pageSize=${pageSize}&sortColumn=${sortColumn}&sortDirection=${sortDirection}`;
+    }
+</script>
