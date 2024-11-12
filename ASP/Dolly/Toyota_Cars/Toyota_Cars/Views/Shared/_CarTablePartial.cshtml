@@ -1,0 +1,21 @@
+﻿
+<table class="table">
+    <thead>
+    <tr>
+        <th><a href="#" onclick="applySorting('Model')">Модель</a></th>
+        <th><a href="#" onclick="applySorting('Color')">Колір</a></th>
+        <th>Конфігурація</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var car in Model)
+    {
+        <tr>
+            <td>@car.Model</td>
+            <td>@car.Color.Name</td>
+            <td>@car.Year</td>
+            <td>@car.Configuration.Name</td>
+        </tr>
+    }
+    </tbody>
+</table>

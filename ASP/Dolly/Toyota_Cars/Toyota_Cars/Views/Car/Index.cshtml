@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Toyota_Cars.Models.Cars.Toyota.CarModel>
+
+<h1>Список автомобілів</h1>
+<div id="carTable">
+    @await Html.PartialAsync("_CarTablePartial", Model)
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    let currentSortDirection = '@ViewData["SortDirection"]';
+
+    function applySorting(column) {
+        const sortDirection = (currentSortDirection === 'asc') ? 'desc' : 'asc';
+        currentSortDirection = sortDirection;
+
+        $.get("/Car/GetSortedCars", { sortColumn: column, sortDirection: sortDirection })
+            .done(function(data) {
+                $("#carTable").html(data); 
+            });
+    }
+</script>

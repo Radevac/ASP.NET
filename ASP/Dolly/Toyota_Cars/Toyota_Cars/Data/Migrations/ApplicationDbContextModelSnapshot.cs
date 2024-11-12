@@ -213,6 +213,32 @@ namespace Toyota_Cars.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Toyota_Cars.Models.Cars.Toyota.CarModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ColorId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("ConfigurationId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Model")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ColorId");
+
+                    b.HasIndex("ConfigurationId");
+
+                    b.ToTable("Cars");
+                });
+
             modelBuilder.Entity("WebApplicationGeo.Models.Cars.Toyota.ColorModel", b =>
                 {
                     b.Property<int>("Id")
@@ -348,6 +374,25 @@ namespace Toyota_Cars.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Toyota_Cars.Models.Cars.Toyota.CarModel", b =>
+                {
+                    b.HasOne("WebApplicationGeo.Models.Cars.Toyota.ColorModel", "Color")
+                        .WithMany()
+                        .HasForeignKey("ColorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApplicationGeo.Models.Cars.Toyota.ConfigurationModel", "Configuration")
+                        .WithMany()
+                        .HasForeignKey("ConfigurationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Color");
+
+                    b.Navigation("Configuration");
                 });
 
             modelBuilder.Entity("WebApplicationGeo.Models.Cars.Toyota.ConfigurationColorsModel", b =>

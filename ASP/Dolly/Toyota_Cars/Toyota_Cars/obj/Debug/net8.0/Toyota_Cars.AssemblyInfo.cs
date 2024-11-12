@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Toyota_Cars")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebb8449ee1f727965026b46cef86ba48d4664829")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16a0aeff7217584bbf95aa5eeda778d8144eb03b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Toyota_Cars")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Toyota_Cars")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
