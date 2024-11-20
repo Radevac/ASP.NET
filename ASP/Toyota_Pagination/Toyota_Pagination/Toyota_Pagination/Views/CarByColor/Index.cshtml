@@ -1,0 +1,67 @@
+@{
+    ViewData["Title"] = "Car by color";
+}
+
+<h1>Car By Color</h1>
+
+<form method="get" asp-action="Index">
+    <div class="row">
+        
+        <div class="col-md-4">
+            <div class="form-group">
+                <select name="modelId" class="form-control" asp-items="ViewBag.models"></select>
+            </div>
+        </div>
+
+        @if (ViewBag.configurations != null)
+        {
+            <div class="col-md-4">
+                <div class="form-group">
+                    <select name="ConfigurationId" class="form-control" asp-items="ViewBag.configurations"></select>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-md-4">
+                <div class="form-group">
+                    Select Model Firs
+                </div>
+            </div> 
+        }
+
+        @if (ViewBag.colors != null)
+        {
+            <div class="col-md-4">
+                <div class="form-group">
+                    <select name="ColorId" class="form-control" asp-items="ViewBag.colors"></select>
+                </div>
+            </div>            
+        }
+        else
+        {
+            <div class="col-md-4">
+                <div class="form-group">
+                    Select configuration first
+                </div>
+            </div>  
+        }
+        
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="submit"/>
+            </div>
+        </div>
+    </div>
+    
+</form>
+
+@if (ViewBag.photo != null)
+{
+    <img src="@ViewBag.photo.MainImageUrl"/>
+}
+else
+{
+    <p> Select color first </p>
+}
+

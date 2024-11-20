@@ -1,0 +1,61 @@
+@model IEnumerable<WebApplicationGeo.Models.Cars.Toyota.ColorModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Search Colors</h1>
+
+<form method="get" asp-action="Index">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input name="search" class="form-control" value="@ViewBag.Search" />
+                <input type="submit"/>
+            </div>
+        </div>
+    </div>
+    
+</form>
+
+<p>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Url)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RGB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Code)
+        </th>
+        <th>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <img height="50" width="50" class="rounded-circle" src="@item.Url"/><br />
+                @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td style="background-color: @item.RGB">
+                @Html.DisplayFor(modelItem => item.RGB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Code)
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

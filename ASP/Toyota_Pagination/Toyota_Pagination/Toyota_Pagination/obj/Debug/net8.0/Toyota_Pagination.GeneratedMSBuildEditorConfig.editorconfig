@@ -1,0 +1,167 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Toyota_Pagination
+build_property.RootNamespace = Toyota_Pagination
+build_property.ProjectDir = C:\Users\VADICK\RiderProjects\ASP\Toyota_Pagination\Toyota_Pagination\Toyota_Pagination\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\VADICK\RiderProjects\ASP\Toyota_Pagination\Toyota_Pagination\Toyota_Pagination
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarByColor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQnlDb2xvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarConfiguration/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQ29uZmlndXJhdGlvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarConfiguration/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQ29uZmlndXJhdGlvblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarConfiguration/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQ29uZmlndXJhdGlvblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarConfiguration/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQ29uZmlndXJhdGlvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarConfiguration/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyQ29uZmlndXJhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarModel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarModel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarModel/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarModel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/CarModel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyTW9kZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/ColorsHandMade/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzSGFuZE1hZGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Colors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Colors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Colors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Colors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Colors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Colors/IndexPaginate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29sb3JzXEluZGV4UGFnaW5hdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/ConfigurationColor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvbkNvbG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/ConfigurationColor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvbkNvbG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/ConfigurationColor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvbkNvbG9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/ConfigurationColor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvbkNvbG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/ConfigurationColor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvbkNvbG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/SearchColor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoQ29sb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Shared/_OrderBy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9PcmRlckJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Shared/_Pagination.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/ShowAllCars/Colors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0FsbENhcnNcQ29sb3JzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/ShowAllCars/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvd0FsbENhcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/VADICK/RiderProjects/ASP/Toyota_Pagination/Toyota_Pagination/Toyota_Pagination/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0tai6pct9v
